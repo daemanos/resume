@@ -1,2 +1,5 @@
-CV.pdf: CV.tex
-	latexmk -xelatex CV
+resume.pdf: resume.tex
+	latexmk -xelatex resume
+
+clean:
+	latexmk -C
